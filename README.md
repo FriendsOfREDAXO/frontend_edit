@@ -1,4 +1,4 @@
-# Frontend Editor
+# Frontend Edit
 
 Vermutlich wird kein Feature für REDAXO so sehr gewünscht, wie Frontend Editing. Ich habe mit diesem AddOn den Startschuss gesetzt und bereits den größten Teil an Logik als Proof-of-Concept realisiert.
 
@@ -19,7 +19,7 @@ Hinweise
 * Das AddOn ist nur sichtbar wenn mein im Backend eingeloggt und Admin ist (Admin-Mode wird im Final-Release entfernt)
 * Die Edit Buttons bekommen volle Opacity beim Hovern.
 
-ToDo
+ToDo's
 ------------
 # Phase 1:
 * Die Edit-Buttons mit dem Backend verlinken
@@ -33,6 +33,16 @@ ToDo
 * Weitere Funktionen besprechen und API zur Verfügung stellen, damit Moduloutputs Inline-Editing anbieten können (über Classes)
 
 Wenn wir hier zusammen arbeiten, können wir ein tolles AddOn entwickeln, dass der kompletten REDAXO-Gemeinschaft weiterhilft. FOR, ihr seid dran!
+
+Installation
+------------
+Hinweis: dies ist kein Plugin! (verhält sich jedoch wie eines)
+
+* Release herunterladen und entpacken.
+* Ordner umbenennen in `frontend_edit`.
+* In den Addons-Ordner legen: `/redaxo/src/addons`.
+
+Oder du benutzt das "zip_install" AddOn!
 
 Credits
 ---------------
