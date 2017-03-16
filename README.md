@@ -37,7 +37,7 @@ FOR, ihr seid dran!
 
 Installation
 ------------
-Hinweis: dies ist kein Plugin! (verhält sich jedoch wie eines)
+Hinweis: dies ist kein Plugin!
 
 * Release herunterladen und entpacken.
 * Ordner umbenennen in `frontend_edit`.
