@@ -1,0 +1,11 @@
+package: frontend_edit
+version: '1.0.0-alpha1'
+author: FriendsOfREDAXO
+supportpage: github.com/FriendsOfREDAXO/frontend_edit
+
+requires:
+    packages:
+        structure: '^2.1.0'
+    redaxo: '^5.1.0'
+    php:
+        version: '>=5.6'
