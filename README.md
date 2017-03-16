@@ -1,4 +1,4 @@
-# Frontend Edit
+# Frontend Edit - αlpha
 
 Vermutlich wird kein Feature für REDAXO so sehr gewünscht, wie Frontend Edit. Ich habe mit diesem AddOn den Startschuss gesetzt und bereits einen großen Teil der Logik als Proof-of-Concept realisiert.
 
