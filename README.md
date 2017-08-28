@@ -22,7 +22,7 @@ Hinweise
 ToDo's
 ------------
 # Phase 1:
-* Die Edit-Buttons mit dem Backend verlinken (easy)
+* ~~Die Edit-Buttons mit dem Backend verlinken (easy)~~ (partly) done
 * Delete Cache Funktion mittels Parameter umsetzen und rex_article_cache::delete($aid, $clang) aufrufen (easy)
 * Layout optimieren, Icons hinzufügen
 * Code bereinigen und verbessern
