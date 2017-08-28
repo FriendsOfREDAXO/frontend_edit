@@ -27,10 +27,19 @@ class frontend_edit extends frontend_edit_abstract
     {
         $subject = $ep->getSubject();
         $params = $ep->getParams();
-
+        
+        
         $module = rex_sql::factory();
         $module->setQuery('SELECT name FROM ' . rex::getTable('module') . ' WHERE id = ' . $params['module_id']);
-        $slice_content = '<rex-frontend-edit><rex-frontend-edit-content><a href="#edit">Slice: <strong>' . $module->getValue('name') . '</strong> bearbeiten</a></rex-frontend-edit-content></rex-frontend-edit>'.$subject;
+        
+        $slice_content = '<rex-frontend-edit><rex-frontend-edit-content><a href="'
+        . rex::getServer()
+        . 'redaxo/index.php?page=content/edit&article_id=' . rex_article::getCurrentId()
+        . '&slice_id='. $params['slice_id']
+        . '&clang=' . rex_clang::getCurrentId()
+        . '&ctype=' . 1 /** rex_ctype::getCurrentId() ctype api not found in doku**/
+        .'&function=edit#slice' . $params['slice_id']
+        .'">Block: <strong>' . $module->getValue('name') . '</strong> bearbeiten</a></rex-frontend-edit-content></rex-frontend-edit>'.$subject;
 
         $ep->setSubject(trim($slice_content));
     }
